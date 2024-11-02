@@ -1,0 +1,7 @@
+type Query {
+  GetAllPosts: [Post!]!
+}
+
+type Mutation {
+  CreatePost(input: NewPost!): Post!
+}

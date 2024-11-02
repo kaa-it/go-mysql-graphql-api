@@ -1,0 +1,7 @@
+extend type Query {
+  GetOnePost(id: Int!): Post!
+}
+
+extend type Mutation {
+  UpdatePost(PostId: Int!, input: NewPost): Post!
+}
